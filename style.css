@@ -1,0 +1,253 @@
+* {margin: 0; padding: ; box-sizing: border-box;}
+::-moz-selection { background:  rgb(217,255,71)}
+::selection { background:  rgb(217,255,71)}
+/* p::selection { background:  rgb(217,255,71)} */
+
+body{
+       background-color: seashell; 
+}
+header{
+    height: 100%;
+    width: 98vw;
+    /* background-color: seashell; */
+    margin-left: 5px;
+    
+}
+nav.nav_bar{
+    width: 100%;
+    height:15vh;
+    text-transform: capitalize;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+    
+}
+.menu ul li{
+    list-style-type:none;
+    text-decoration: none;
+    /* background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%); */
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    color:black;
+    /* background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%); */
+}
+.nav_bar ul li a:hover{
+    color: rgb(192, 181, 181);
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+.menu .active, ul li a :hover{
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+.nav_bar .menu ul li{
+    list-style-type: none; 
+    padding: 0 18px; 
+    display: inline;
+}
+
+div.logo{
+    margin: 5px;
+    /* border: 1px solid rgb(21, 19, 19); */
+    float:right;
+    width: auto;
+}
+div.logo img{
+    width: auto;
+    height: auto;
+    /* background-color: brown; */
+}
+/* zumba code start --------------------------------- */
+div.zum_logo{
+    margin: 5px;
+    /* border: 1px solid rgb(21, 19, 19); */
+    float: left;
+    width: 92px;
+}
+div.zum_logo img{
+    width: 90px;
+    height: auto;
+}
+.zum_bar{
+    width: auto;
+    height: 6vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: -130px;
+    margin-left: -230px; */
+    overflow: hidden;
+}
+.zum_bar ul li a{
+    text-decoration: none;
+    color:black;
+    /* background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%); */
+}
+.zum_bar .zum_menu ul li{
+    list-style-type: none; 
+    padding: 0 18px; 
+    display: inline;
+}
+.zum_menu{
+    font-family: 'Audiowide', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+.zum_bar ul li a:hover{
+    /* color: rgb(192, 181, 181); */
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+div.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    /* border: 1px solid red */
+    position: relative;
+}
+.image img{
+    width: 95vw;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px;
+    /* filter:blur(1px); */
+    /* -webkit-filter: blur(1px); */
+}
+.img_content{
+    position: absolute;
+    bottom: 35px;
+    z-index: 1;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, .4); /* Black background with 0.5 opacity */
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.img_content h1{
+    font-size: 40px;
+}
+/* video file code ------------------------------ */
+.video{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+.video_files{
+    width: 95vw;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 45px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.video_content {
+    margin-top: 3px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 7px ;
+}
+.video_content a{
+    width: 40vw;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 25px;
+    /* color: red; */
+    /* background:-webkit-linear-gradient(#dd5e89,#f7bb97);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.video :hover{
+    /* background-color: red; */
+    color:gray
+}
+.video_files video{
+    padding: 2px;
+}
+/* zumbz text code -------------------------------------- */
+
+.zum_text{
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    width: 98%;
+    height: auto;
+    margin-top: 230px;
+}
+.zumtext_img{
+    /* border: 3px solid black; */
+    float: right;
+}
+.zumtext_content img{ 
+    width: 50%;
+    height: auto;
+    margin-top: 70px;
+}
+.zumtext_content{
+    /* background-color: red; */ 
+    /* border: 2px solid black; */
+    width: 35%;
+    height: 90%;
+    margin-left: 20%;
+    line-height: 20px;
+}
+.zumtext_content p{
+    word-spacing: 5px;
+    font-size: 16px;   
+}
+/* Address code ----------------------------------------------- */
+    .address{
+    width: 30%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+    margin-top: 90px;
+    text-transform: capitalize;
+  
+
+}
+       
+.address1 {
+    color: black;
+    width: 100px;
+    font-size: 20px;
+    margin-left: -120%;
+}
+.address2 {
+    color: black;
+    width: 130px;
+    font-size: 20px;
+    margin-left: -120%;
+}
+
+  /* Social network code---------------------------------------------- */
+  .social_networking{
+    /* background-color: red; */
+    font-size: 23px;
+    word-spacing: 20px;
+    margin-left: 20px;
+    margin-top: 280px;
+  }
+  
+  .social_networking a{
+      color:white;
+      margin-left: 10px;
+      margin-top: 100px;
+  }
+  .social_networking :hover{
+    opacity: 0.7;
+}
+
+footer{
+    color:white;
+    border: 1px solid black;
+    background-color: rgb(0,0,0);
+}
+
+  #add1, #add2 {
+      scroll-behavior: smooth;
+  }
