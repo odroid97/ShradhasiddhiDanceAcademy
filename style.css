@@ -8,7 +8,7 @@ body{
 }
 header{
     height: 100%;
-    width: 98vw;
+    width: 100%;
     /* background-color: seashell; */
     margin-left: 5px;
     
@@ -51,7 +51,7 @@ div.logo{
     margin: 5px;
     /* border: 1px solid rgb(21, 19, 19); */
     float:right;
-    width: auto;
+    width: 120px;
 }
 div.logo img{
     width: auto;
@@ -76,8 +76,8 @@ div.zum_logo img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* margin-top: -130px;
-    margin-left: -230px; */
+    /* margin-top: -130px; */
+    margin-left:px;
     overflow: hidden;
 }
 .zum_bar ul li a{
@@ -256,20 +256,30 @@ footer{
   }
   @media only screen and (max-width: 500px){
 
-    body {
+    /* body {
         background-color: lightblue;
         
-      }
-    nav.nav_bar{
-        width: 100%;
-    }
-    .img_content h1{
-        font-size: 80%;
-    }
-    .menu{
-        display: none;
-    }
-    div.zum_logo{
-        margin-left: 40px;
-       
-  }
+      } */
+    nav.nav_bar{width: 100%;}
+
+    .img_content h1{font-size: 80%;}
+    
+    #mobile_size {display: none;}
+    
+    
+    div.zum_logo{margin: 0 --10%;}
+    
+
+    div.logo{
+    /* margin: 5px;
+
+    float:right;
+    width: 50px;
+    margin-left: 10px; */
+
+}
+#mobile_size1 ul li{
+
+}
+
+}
