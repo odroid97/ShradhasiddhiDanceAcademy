@@ -107,6 +107,7 @@ div.image{
     /* border: 1px solid red */
     position: relative;
 }
+/* Main image -------------------------------------------------------------------- */
 .image img{
     width: 95vw;
     height: 500px;
@@ -124,6 +125,7 @@ div.image{
     color: white;
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 .img_content h1{
     font-size: 40px;
@@ -167,7 +169,7 @@ div.image{
 .video_files video{
     padding: 2px;
 }
-/* zumbz text code -------------------------------------- */
+/* zumbz text & image code -------------------------------------- */
 
 .zum_text{
     /* background-color: red; */
@@ -177,6 +179,7 @@ div.image{
     margin-top: 230px;
 }
 .zumtext_img{
+    width: 40vw;
     /* border: 3px solid black; */
     float: right;
 }
@@ -250,4 +253,23 @@ footer{
 
   #add1, #add2 {
       scroll-behavior: smooth;
+  }
+  @media only screen and (max-width: 500px){
+
+    body {
+        background-color: lightblue;
+        
+      }
+    nav.nav_bar{
+        width: 100%;
+    }
+    .img_content h1{
+        font-size: 80%;
+    }
+    .menu{
+        display: none;
+    }
+    div.zum_logo{
+        margin-left: 40px;
+       
   }
